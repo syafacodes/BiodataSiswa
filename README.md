@@ -1,16 +1,25 @@
-# crud_siswa
+# BiodataSiswa 🎓
 
-A new Flutter project.
+Aplikasi mobile berbasis Flutter untuk mengelola data siswa. Aplikasi ini mengimplementasikan operasi CRUD (Create, Read, Update, Delete) dengan menghubungkan frontend Flutter ke REST API backend menggunakan PHP dan MySQL.
 
-## Getting Started
+## 📸 Tampilan Aplikasi (Output)
+![Tampilan Biodata Siswa](output.png)
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
+* **Tampil Data (Read):** Menampilkan daftar biodata siswa dari database.
+* **Tambah Data (Create):** Form interaktif untuk memasukkan data siswa baru.
+* **Edit Data (Update):** Memperbarui informasi siswa yang sudah terdaftar.
+* **Hapus Data (Delete):** Menghapus data siswa dari database.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Teknologi yang Digunakan
+* **Frontend:** Flutter (Dart)
+* **Backend API:** PHP 
+* **Database:** MySQL
+* **HTTP Client:** Package `http` di Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Cara Menjalankan Project (Lokal)
+1. Clone repository ini: `git clone https://github.com/syafacodes/BiodataSiswa.git`
+2. Masuk ke direktori: `cd BiodataSiswa`
+3. Install dependencies: `flutter pub get`
+4. Sesuaikan URL API backend PHP di dalam source code Flutter.
+5. Jalankan aplikasi: `flutter run`
